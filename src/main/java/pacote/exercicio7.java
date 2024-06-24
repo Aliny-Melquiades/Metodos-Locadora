@@ -3,6 +3,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 
+//7 – Crie um método para inserir registros na tabela Filmes. Se preferir crie um objeto, 
+//com as características encontradas na tabela, e insira esse objeto no banco
+    
 public class exercicio7 {
     
         public void inserirFilme(exercicio7 filme) {

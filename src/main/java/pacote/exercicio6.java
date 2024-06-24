@@ -36,7 +36,6 @@ public class exercicio6 {
                 e.printStackTrace();
             }
 
-            
             return generos;
         }
 

@@ -12,7 +12,7 @@ import java.util.List;
 
 public class exercicio4 {
     
-        private final String url = "jdbc:postgresql://localhost:5432/postgresqlite:exemplo.db";
+        private final String url = "jdbc:postgresql://localhost:5432/postgres";
         
         public <Endereco> List<Endereco> buscarTodosEnderecos() {
             String sql = "SELECT * FROM endereco";

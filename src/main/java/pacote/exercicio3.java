@@ -11,12 +11,9 @@ public class exercicio3 {
 
     private final String url = "jdbc:postgresql://localhost:5432/postgres";
 
-    public exercicio3(String rua, String cidade, String estado, String cep) {
-    }
-
     // Método para inserir um Gênero no banco de dados
     public void inserirGenero(exercicio3 genero) {
-        String sql = "INSERT INTO genero(nome) VALUES(?)";
+        String sql = "INSERT INTO genero(nome) VALUES('Romance', 'Comédia')";
 
         try (Connection conn = DriverManager.getConnection(url);
              PreparedStatement pstmt = conn.prepareStatement(sql)) {

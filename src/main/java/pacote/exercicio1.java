@@ -13,7 +13,7 @@ public class exercicio1 {
 
         public void inserirEndereco(exercicio1 endereco) {
 
-            String sql = "INSERT INTO endereco(rua, cidade, estado, cep) VALUES()";
+            String sql = "INSERT INTO endereco(rua, cidade, estado, cep) VALUES('Rua das Flores', 'Londrina', 'PR', '85090580')";
 
             try (Connection conn = DriverManager.getConnection(url);
                  PreparedStatement pstmt = conn.prepareStatement(sql)) {

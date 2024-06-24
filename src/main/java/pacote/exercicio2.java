@@ -13,7 +13,7 @@ public class exercicio2 {
 
 
     public void inserirCategoria(exercicio2 categoria) {
-        String sql = "INSERT INTO categoria(nome) VALUES(?)";
+        String sql = "INSERT INTO categoria(nome) VALUES('Romance', 'Comédia')";
 
         try (Connection conn = DriverManager.getConnection(url);
              PreparedStatement pstmt = conn.prepareStatement(sql)) {

@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+// Crie um método para exibir no console, todos os Endereços, cadastrados na tabela 
+//de mesmo nome. Se preferir, retorne uma lista de objetos, e imprima-a na console;
+
 public class exercicio4 {
     
         private final String url = "jdbc:postgresql://localhost:5432/postgresqlite:exemplo.db";

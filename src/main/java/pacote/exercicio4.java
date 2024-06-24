@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-// Crie um método para exibir no console, todos os Endereços, cadastrados na tabela 
+//4- Crie um método para exibir no console, todos os Endereços, cadastrados na tabela 
 //de mesmo nome. Se preferir, retorne uma lista de objetos, e imprima-a na console;
 
 public class exercicio4 {

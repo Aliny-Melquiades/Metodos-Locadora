@@ -4,7 +4,7 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-// Crie um método para inserir Categorias. Se preferir crie um objeto, com as
+//2- Crie um método para inserir Categorias. Se preferir crie um objeto, com as
 //características encontradas na tabela, e insira esse objeto no banco.
 
 public class exercicio2 {
